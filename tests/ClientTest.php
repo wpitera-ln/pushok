@@ -12,7 +12,7 @@
 namespace Pushok\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Pushok\AuthProvider\Token;
+use Pushok\AuthProvider\Certificate;
 use Pushok\Client;
 use Pushok\Notification;
 
@@ -20,7 +20,7 @@ class ClientTest extends TestCase
 {
     public function testAmountOfAddedMessages()
     {
-        $authProvider = $this->createMock(Token::class);
+        $authProvider = $this->createMock(Certificate::class);
         $notification = $this->createMock(Notification::class);
 
         $client = new Client($authProvider, $production = false);
