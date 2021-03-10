@@ -1,5 +1,9 @@
 # Pushok
 
+> **Note:** this branch removed Token based auth and related dependencies leaving php req @7.0
+
+>The rest of readme relates to [original tag](https://github.com/edamov/pushok/tree/0.8.0)  it was based on  
+
 [![PHP >= 7.1](https://img.shields.io/badge/php-%3E%3D%207.1-8892BF.svg?style=flat-square)](https://php.net/)
 [![Build Status][ico-travis]][link-travis]
 [![Latest Version on Packagist][ico-version]][link-packagist]
